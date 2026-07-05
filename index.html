@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>Mithu Web IDE | Visual Web Development Reimagined</title>
+
+    <meta name="description"
+        content="Build beautiful websites visually while writing real HTML, CSS and JavaScript. Mithu Web IDE combines drag & drop with professional code editing.">
+
+    <meta name="keywords"
+        content="Mithu Web IDE, Web IDE, HTML Editor, CSS Editor, JavaScript IDE, Drag and Drop Website Builder, Visual IDE">
+
+    <meta name="author" content="Samriddho Computer Education">
+
+    <meta property="og:title" content="Mithu Web IDE">
+    <meta property="og:description"
+        content="Build Websites. Visually. Professionally.">
+
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.min.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-markup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
+<body>
+
+    <!-- =================================================== -->
+    <!-- Aurora Background -->
+    <!-- =================================================== -->
+
+    <div class="aurora">
+        <span class="blob blob1"></span>
+        <span class="blob blob2"></span>
+        <span class="blob blob3"></span>
+        <span class="grid"></span>
+    </div>
+
+    <!-- =================================================== -->
+    <!-- Navigation -->
+    <!-- =================================================== -->
+
+    <header class="navbar">
+
+        <div class="container nav_container" style="display: flex;">
+
+            <div class="logo">
+
+                <div class="logo_icon">
+
+                    <img src="favicon.ico" alt="MW">
+
+                </div>
+
+                <div class="logo_text">
+
+                    <h3>Mithu Web IDE</h3>
+
+                    <!-- <span>by Samriddho Computer Education</span> -->
+
+                </div>
+
+            </div>
+
+            <nav style="margin-left: 30%;">
+
+                <a href="#features" class="section_tag">Features</a>
+
+                <a href="#screenshots" class="section_tag">Screenshots</a>
+
+                <a href="#roadmap" class="section_tag">Roadmap</a>
+
+                <a href="#download" class="section_tag">Download</a>
+
+            </nav>
+
+            <!-- <a href="#download" class="download_nav">
+
+                Download
+
+            </a> -->
+
+        </div>
+
+    </header>
+
+    <!-- =================================================== -->
+    <!-- Hero -->
+    <!-- =================================================== -->
+
+    <section class="hero">
+
+        <div class="container hero_container">
+
+            <div class="hero_left">
+
+                <div class="hero_badge">
+
+                    🚀 Version 1.0 Preview
+
+                </div>
+
+                <h1>
+
+                    Build Websites
+
+                    <span>
+
+                        Visually.
+
+                    </span>
+
+                    Professionally.
+
+                </h1>
+
+                <p>
+
+                    Mithu Web IDE combines drag & drop web design with
+                    professional HTML, CSS and JavaScript editing.
+
+                    Create websites faster without sacrificing control.
+
+                </p>
+
+                <div class="hero_buttons">
+
+                    <a href="https://github.com/Samriddho-Karmakar/Mithu-Web-IDE/releases/download/Mithu-Web-IDE/Mithu-Web-IDE-Setup-1.0.0.Preview.exe" class="btn primary">
+
+                        Download for Windows
+
+                    </a>
+
+                    <a href="#video" class="btn secondary">
+
+                        Watch Demo
+
+                    </a>
+
+                </div>
+
+                <!-- <div class="hero_stats">
+
+                    <div class="stat">
+
+                        <h2>
+
+                            100%
+
+                        </h2>
+
+                        <p>
+
+                            HTML
+
+                        </p>
+
+                    </div>
+
+                    <div class="stat">
+
+                        <h2>
+
+                            CSS
+
+                        </h2>
+
+                        <p>
+
+                            Visual Editing
+
+                        </p>
+
+                    </div>
+
+                    <div class="stat">
+
+                        <h2>
+
+                            JS
+
+                        </h2>
+
+                        <p>
+
+                            Professional Coding
+
+                        </p>
+
+                    </div>
+
+                </div> -->
+
+            </div>
+
+            <div class="hero_right" style="margin-left: 15%;">
+
+                <div class="editor-preview">
+
+    <div class="editor-titlebar">
+
+        <div class="traffic-lights">
+            <span class="red"></span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+        </div>
+
+        <div class="editor-tabs">
+
+            <button class="tab active">
+                index.html
+            </button>
+
+            <button class="tab">
+                style.css
+            </button>
+
+            <button class="tab">
+                script.js
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="editor-body">
+
+<pre class="language-html"><code  class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport"
+          content="width=device-width,
+          initial-scale=1.0"&gt;
+    &lt;title&gt;My Website&lt;/title&gt;
+    &lt;link rel="stylesheet"
+          href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header class="navbar"&gt;
+        &lt;h1&gt;My Website&lt;/h1&gt;
+        &lt;button&gt;
+            Download
+        &lt;/button&gt;
+    &lt;/header&gt;
+    &lt;script src="script.js"&gt;
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<pre style="display:none"  class="language-css"><code class="css-code" class="language-css">
+body{
+    margin:0;
+    background:#0F172A;
+    color:white;
+    font-family:Inter,sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+button{
+    background:#7C3AED;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:12px 20px;
+}
+</code></pre>
+
+<pre style="display:none" class="language-javascript"><code class="js-code" class="language-javascript">
+const button = document.querySelector("button");
+
+button.addEventListener("click", ()=> {
+        alert("Welcome to MW IDE!");
+    }
+);
+</code></pre>
+
+    </div>
+
+</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Scroll Indicator -->
+
+    <div class="scroll_indicator">
+
+        <span></span>
+
+    </div>
+
+    <!-- =================================================== -->
+    <!-- Features (Part 2 continues here) -->
+    <!-- =================================================== -->
+<section id="features" class="features">
+
+    <div class="container">
+
+        <div class="section_header">
+
+            <span class="section_tag">
+
+                WHY MITHU WEB IDE
+
+            </span>
+
+            <h2>
+
+                Everything you need to build
+                modern websites faster.
+
+            </h2>
+
+            <p>
+
+                A seamless combination of visual designing and professional coding.
+
+            </p>
+
+        </div>
+
+        <div class="feature_grid">
+
+            <div class="feature_card">
+
+                <div class="feature_icon">
+
+                    🎨
+
+                </div>
+
+                <h3>
+
+                    Visual Drag & Drop
+
+                </h3>
+
+                <p>
+
+                    Build layouts visually without writing repetitive HTML.
+
+                </p>
+
+            </div>
+
+            <div class="feature_card">
+
+                <div class="feature_icon">
+
+                    💻
+
+                </div>
+
+                <h3>
+
+                    Monaco Editor
+
+                </h3>
+
+                <p>
+
+                    Experience VS Code level editing directly inside the IDE.
+
+                </p>
+
+            </div>
+
+            <div class="feature_card">
+
+                <div class="feature_icon">
+
+                    ⚡
+
+                </div>
+
+                <h3>
+
+                    Live Synchronization
+
+                </h3>
+
+                <p>
+
+                    Edit visually or through code.
+                    Both stay synchronized.
+
+                </p>
+
+            </div>
+
+            <div class="feature_card">
+
+                <div class="feature_icon">
+
+                    🗂
+
+                </div>
+
+                <h3>
+
+                    Project Explorer
+
+                </h3>
+
+                <p>
+
+                    Organize your project like a professional developer.
+
+                </p>
+
+            </div>
+
+            <div class="feature_card">
+
+                <div class="feature_icon">
+
+                    📦
+
+                </div>
+
+                <h3>
+
+                    Export Ready
+
+                </h3>
+
+                <p>
+
+                    Export projects instantly for hosting or deployment.
+
+                </p>
+
+            </div>
+
+            <div class="feature_card">
+
+                <div class="feature_icon">
+
+                    🚀
+
+                </div>
+
+                <h3>
+
+                    High Performance
+
+                </h3>
+
+                <p>
+
+                    Lightweight architecture built with Electron.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="video" class="video_section">
+
+    <div class="container">
+
+        <div class="section_header">
+
+            <span class="section_tag">
+
+                WATCH
+
+            </span>
+
+            <h2>
+
+                See Mithu Web IDE in action
+
+            </h2>
+
+            <p>
+
+                Watch how quickly websites can be designed visually.
+
+            </p>
+
+        </div>
+
+        <div class="video_box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2JvffNXphbc?si=ac8D5ZzmV4IMxkVJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <div class="play_circle">
+
+                ▶
+
+            </div>
+
+            <div class="video_text">
+
+                Your YouTube video will appear here.
+
+            </div> -->
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="screenshots" class="screenshots">
+
+    <div class="container">
+
+        <div class="section_header">
+
+            <span class="section_tag">
+
+                SCREENSHOTS
+
+            </span>
+
+            <h2>
+
+                Beautiful Interface
+
+            </h2>
+
+            <p>
+
+                Crafted carefully for developers.
+
+            </p>
+
+        </div>
+
+        <div class="screenshot_grid">
+
+            <div class="shot">
+
+                <img src="home.png" alt="Screenshot">
+
+            </div>
+
+            <div class="shot">
+
+                <img src="design.png" alt="Screenshot">
+
+            </div>
+
+            <div class="shot">
+
+                <img src="code.png" alt="Screenshot">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="workflow">
+
+    <div class="container">
+
+        <div class="section_header">
+
+            <span class="section_tag">
+
+                WORKFLOW
+
+            </span>
+
+            <h2>
+
+                Build. Edit. Preview. Export.
+
+            </h2>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline_item">
+
+                <div class="timeline_number">
+
+                    01
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Design Visually
+
+                    </h3>
+
+                    <p>
+
+                        Drag and drop HTML components onto the canvas.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline_item">
+
+                <div class="timeline_number">
+
+                    02
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Customize
+
+                    </h3>
+
+                    <p>
+
+                        Change properties, styles and layouts instantly.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline_item">
+
+                <div class="timeline_number">
+
+                    03
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Code
+
+                    </h3>
+
+                    <p>
+
+                        Edit HTML, CSS and JavaScript professionally.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline_item">
+
+                <div class="timeline_number">
+
+                    04
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Export
+
+                    </h3>
+
+                    <p>
+
+                        Deploy your website anywhere.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="statistics">
+
+    <div class="container">
+
+        <div class="stats_grid">
+
+            <div class="big_stat">
+
+                <h2>
+
+                    100%
+
+                </h2>
+
+                <span>
+
+                    HTML
+
+                </span>
+
+            </div>
+
+            <div class="big_stat">
+
+                <h2>
+
+                    CSS
+
+                </h2>
+
+                <span>
+
+                    Visual Styling
+
+                </span>
+
+            </div>
+
+            <div class="big_stat">
+
+                <h2>
+
+                    JS
+
+                </h2>
+
+                <span>
+
+                    Complete Freedom
+
+                </span>
+
+            </div>
+
+            <div class="big_stat">
+
+                <h2>
+
+                    ∞
+
+                </h2>
+
+                <span>
+
+                    Creativity
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =================================================== -->
+<!-- Roadmap starts in Part 3 -->
+<!-- =================================================== -->
+ <section id="roadmap" class="roadmap">
+
+    <div class="container">
+
+        <div class="section_header">
+
+            <span class="section_tag">
+
+                ROADMAP
+
+            </span>
+
+            <h2>
+
+                The Journey Has Just Begun
+
+            </h2>
+
+            <p>
+
+                Mithu Web IDE is continuously evolving with exciting features planned
+                for future releases.
+
+            </p>
+
+        </div>
+
+        <div class="roadmap_line">
+
+            <div class="roadmap_item">
+
+                <div class="roadmap_dot"></div>
+
+                <div class="roadmap_content">
+
+                    <span>Version 1.0</span>
+
+                    <h3>
+
+                        Foundation
+
+                    </h3>
+
+                    <p>
+
+                        Drag & Drop Builder,
+                        Monaco Editor,
+                        Live Synchronization,
+                        Project Explorer,
+                        Property Panel.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="roadmap_item">
+
+                <div class="roadmap_dot"></div>
+
+                <div class="roadmap_content">
+
+                    <span>Version 1.5</span>
+
+                    <h3>
+
+                        Productivity
+
+                    </h3>
+
+                    <p>
+
+                        Component Library,
+                        Templates,
+                        Better Preview,
+                        Asset Manager.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="roadmap_item">
+
+                <div class="roadmap_dot"></div>
+
+                <div class="roadmap_content">
+
+                    <span>Version 2.0</span>
+
+                    <h3>
+
+                        Professional
+
+                    </h3>
+
+                    <p>
+
+                        Plugins,
+                        Themes,
+                        AI Assistant,
+                        Extensions,
+                        Multi-page Builder.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="download" class="download">
+
+    <div class="container">
+
+        <div class="download_box">
+
+            <div>
+
+                <span class="section_tag">
+
+                    DOWNLOAD
+
+                </span>
+
+                <h2>
+
+                    Ready to Build Something Amazing?
+
+                </h2>
+
+                <p>
+
+                    Download the latest preview of Mithu Web IDE and
+                    experience visual web development.
+
+                </p>
+
+            </div>
+
+            <div class="download_buttons">
+
+                <a href="https://github.com/Samriddho-Karmakar/Mithu-Web-IDE/releases/download/Mithu-Web-IDE/Mithu-Web-IDE-Setup-1.0.0.Preview.exe" class="btn primary">
+
+                    Download for Windows
+
+                </a>
+
+                <a href="#video" class="btn secondary">
+
+                    Watch Demo
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="faq">
+
+    <div class="container">
+
+        <div class="section_header">
+
+            <span class="section_tag">
+
+                FAQ
+
+            </span>
+
+            <h2>
+
+                Frequently Asked Questions
+
+            </h2>
+
+        </div>
+
+        <div class="faq_container">
+
+            <div class="faq_item">
+
+                <h3>
+
+                    Is Mithu Web IDE free?
+
+                </h3>
+
+                <p>
+
+                    Yes. Version 1 is planned to be freely available.
+
+                </p>
+
+            </div>
+
+            <div class="faq_item">
+
+                <h3>
+
+                    Which platforms are supported?
+
+                </h3>
+
+                <p>
+
+                    Windows currently.
+                    Linux and macOS are planned.
+
+                </p>
+
+            </div>
+
+            <div class="faq_item">
+
+                <h3>
+
+                    Can beginners use it?
+
+                </h3>
+
+                <p>
+
+                    Absolutely.
+                    It is designed for both beginners and professionals.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+
+            Start Building Today.
+
+        </h2>
+
+        <p>
+
+            Create websites faster with a modern visual workflow.
+
+        </p>
+
+        <a href="https://github.com/Samriddho-Karmakar/Mithu-Web-IDE/releases/download/Mithu-Web-IDE/Mithu-Web-IDE-Setup-1.0.0.Preview.exe" class="btn primary">
+
+            Download Mithu Web IDE
+
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="container footer_container">
+
+        <div class="footer_left">
+
+            <h3>
+
+                Mithu Web IDE
+
+            </h3>
+
+            <p>
+
+                A Product of
+
+                <strong>
+
+                    Samriddho Computer Education
+
+                </strong>
+
+            </p>
+
+            <p class="copyright">
+
+                © 2026 Samriddho Computer Education.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+        <div class="footer_right">
+
+            <a href="#">
+
+                Home
+
+            </a>
+
+            <a href="#features">
+
+                Features
+
+            </a>
+
+            <a href="#download">
+
+                Download
+
+            </a>
+
+            <a href="#roadmap">
+
+                Roadmap
+
+            </a>
+
+            <a href="https://sceacademy.pages.dev">
+
+                SCE Academy
+
+            </a>
+        </div>
+
+    </div>
+
+    <div class="developer_credit" href="https://github.com/Samriddho-Karmakar">
+
+        Designed & Developed by
+
+        <strong>
+
+            Samriddho Karmakar
+
+        </strong>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
